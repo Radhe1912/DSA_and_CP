@@ -1,0 +1,2 @@
+s = input()
+print("YES" if any(c in s for c in "HQ9") else "NO")
